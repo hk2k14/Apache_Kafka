@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.apachekafka.ApacheKafkaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 103.043 s <<< FAILURE! - in com.example.apachekafka.ApacheKafkaApplicationTests
+contextLoads  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic harin not present in metadata after 60000 ms.
+Caused by: org.apache.kafka.common.errors.TimeoutException: Topic harin not present in metadata after 60000 ms.
+
